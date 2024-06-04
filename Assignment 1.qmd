@@ -1,38 +1,29 @@
 ---
-title: Categorical - Assignment 1 (correlated data)
-author: Hazlienor
-date: 26-May 2024
+title: "Categorical - Assignment 1 (correlated data)"
+author: "Hazlienor"
+date: "26-May 2024"
 format:
   html:
+    prefer-html: true
     toc: true
     toc-location: left
     toc-depth: 4
     toc-expand: 2
     toc-title: Contents
     code-links:
-        text: Github repo
-        icon: file-code
-        href: https://github.com/drhazlienor/cat_assignment1.git
-    css: styles.css
-    smooth-scroll: true
-    theme: 
+      text: Github repo
+      icon: "file-code"
+      href: https://github.com/drhazlienor/cat_assignment1.git
+      smooth-scroll: true
+    theme:
       light: cosmo
-      dark: [cosmo, theme-dark.scss]
+      dark:
+      - cosmo
+      - "theme-dark.scss"
     grid:
       sidebar-width: 300px
       margin-width: 300px
       body-width: 900px
-  pdf:
-    toc: true
-    toc-depth: 3
-    toc-title: Contents
-    number-sections: true
-    colorlinks: true
-  docx: 
-    toc: true
-    toc-depth: 3
-    toc-title: Contents
-    highlight-style: github
 self-contained: true
 ---
 
