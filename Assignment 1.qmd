@@ -6,6 +6,15 @@ format:
   html:
     toc: true
     toc-location: left
+    toc-depth: 4
+    toc-expand: 2
+    toc-title: Contents
+    code-links:
+        text: Github repo
+        icon: file-code
+        href: https://github.com/drhazlienor/cat_assignment1.git
+    css: styles.css
+    smooth-scroll: true
     theme: 
       light: cosmo
       dark: [cosmo, theme-dark.scss]
@@ -15,11 +24,15 @@ format:
       body-width: 900px
   pdf:
     toc: true
+    toc-depth: 3
+    toc-title: Contents
     number-sections: true
     colorlinks: true
   docx: 
     toc: true
-    toc-depth: 2
+    toc-depth: 3
+    toc-title: Contents
+    highlight-style: github
 self-contained: true
 ---
 
@@ -573,4 +586,10 @@ tx <- tx + ggtitle(NULL)
 
 ```{r}
 grid.arrange(age, sex, dm, ckd, dur, tx, ncol=3)
+```
+
+report
+
+```{r}
+report::report(rs_lme_dur_tx)
 ```
