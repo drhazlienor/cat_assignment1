@@ -25,6 +25,8 @@ format:
       margin-width: 300px
       body-width: 900px
 self-contained: true
+resource_files:
+- Assignment 1.html
 ---
 
 **GET502 Analisa Data Kategorikal Lanjutan (Advanced Categorical Data Analysis)**
@@ -439,6 +441,16 @@ logit(P(Y_ij =1))=β0+β1Ageij +β2Genderij +β3DMij +β4CKDij +β5 treatmentij+
 
 ```{r}
 ( -14.2727198)+(0.1677178*36)+(2.0238366)
+```
+
+2nd observation
+
+```{r}
+data[10,]
+```
+
+```{r}
+( -14.2727198)+(0.1677178*45)+(1.1793065)+(1.4534453)+(1.0941284)+(0.2554240*3) + (2.0238366) + (-0.05447862) + (-2.2774811)
 ```
 
 ###### predicted probability
